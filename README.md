@@ -1,17 +1,14 @@
-<p align="center">
-  <img width="200" src="https://open-wc.org/hero.png"></img>
-</p>
-
-## Open-wc Starter App
-
 [![Built with open-wc recommendations](https://img.shields.io/badge/built%20with-open--wc-blue.svg)](https://github.com/open-wc)
+
+#### Wordle Clone is an implementation of the world-known game Wordle in Lit.
 
 ## Quickstart
 
 To get started:
 
 ```bash
-npm init @open-wc
+npm install
+npm run start
 # requires node 10 & npm 6 or higher
 ```
 
@@ -20,12 +17,13 @@ npm init @open-wc
 - `start` runs your app for development, reloading on file changes
 - `start:build` runs your app after it has been built using the build command
 - `build` builds your app and outputs it in your `dist` directory
-- `test` runs your test suite with Web Test Runner
-- `lint` runs the linter for your project
-- `format` fixes linting and formatting errors
 
-## Tooling configs
+## Details
 
-For most of the tools, the configuration is in the `package.json` to reduce the amount of files in your project.
+The objective of the game is to discover the 5-letter secret word. When you input a word, there can be 3 posibilities for each letter. Either it's green, so that means the letter is correct and it is in the correct position. If it's yellow that means the word contains the letter, but it isn't in the right position. Or else its grey so that means the word doens't contain the letter at all.
 
-If you customize the configuration a lot, you can consider moving them to individual files.
+You have 6 tries to discover the secret word.
+
+_(In the original game, the word is randomly set each day, this app is just a demonstration of the functionality of the game made in Lit)_
+
+All the information is stored in the `localStorage` of the browser.
