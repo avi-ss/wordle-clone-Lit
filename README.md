@@ -25,5 +25,3 @@ The objective of the game is to discover the 5-letter secret word. When you inpu
 You have 6 tries to discover the secret word.
 
 _(In the original game, the word is randomly set each day, this app is just a demonstration of the functionality of the game made in Lit)_
-
-All the information is stored in the `localStorage` of the browser.
