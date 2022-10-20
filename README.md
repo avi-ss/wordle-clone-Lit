@@ -14,7 +14,7 @@ npm run start
 # requires node 10 & npm 6 or higher
 ```
 
-## Scripts
+## Scripts (currently is only for development)
 
 - `start` runs your app for development, reloading on file changes
 
