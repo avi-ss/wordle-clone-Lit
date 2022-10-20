@@ -1,3 +1,5 @@
+## Wordle Clone!
+
 [![Built with open-wc recommendations](https://img.shields.io/badge/built%20with-open--wc-blue.svg)](https://github.com/open-wc)
 
 #### Wordle Clone is an implementation of the world-known game Wordle in Lit.
